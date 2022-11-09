@@ -30,7 +30,7 @@ python generate_vocab.py
 
 The train data for multi-label classifer is generate by 'ML-Classifier/data/coco_data.py'
 
-## Train and test on SLURM
+## Train the model
 Train our model on SLURM: 'sbatch tce_run_with_slurm_das_train.sh'.
 
 ```
@@ -54,10 +54,17 @@ srun python train_coco.py --data_path "../../data/scan_data/data" \
   --logger_name "$LOG_PATH/CVSE_COCO/data_omp_train_top_300_five_caption_prediction/"
 ```
 
-Generate the Textual Concept Expansion by: 'sbatch ml_run_with_slurm_das_test.sh'
+## Evaluation
+Test our model on SLURM
+Generate the Textual Concept Expansion by: 
+```sbatch ml_run_with_slurm_das_test.sh```
 
 We upload our model [here](https://drive.google.com/drive/folders/1Gq1VRDnTJnkxTwLs3dE16YHw4JObm6Nl?usp=sharing). You can download them and put them into the model directory.
-Test the model by 'sbatch tce_run_with_slurm_das_test.sh'
+Test the model by:
+```sbatch tce_run_with_slurm_das_test.sh```
+
+## Citation
+
 
 
 

@@ -31,13 +31,13 @@ python generate_vocab.py
 The train data for multi-label classifer is generate by ```ML-Classifier/data/coco_data.py```
 
 ## Train the model
-Train our model on SLURM: 'sbatch tce_run_with_slurm_das_train.sh'.
+Train our model on SLURM: ```sbatch tce_run_with_slurm_das_train.sh```.
 
 ```
 DATA_PATH="./data/coco_annotations/Concept_annotations_coco_vocab"
 LOG_PATH="./runs/coco_new/"
 
-srun python train_coco.py --data_path "../../data/scan_data/data" \
+python train_coco.py --data_path "../../data/scan_data/data" \
   --batch_size 512 \
   --num_attribute 300 \
   --model_name "$LOG_PATH/CVSE_COCO_data_omp_train_top_300_five_caption/" \

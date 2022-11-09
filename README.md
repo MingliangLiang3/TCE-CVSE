@@ -5,14 +5,14 @@ We borrow the code from ["CVSE"](https://github.com/BruceW91/CVSE) and ["Multi-l
 <img src="./figures/TCE-CVSE.jpg" width = "80%" height="60%">
 
 ## Requirements and Installation
-*Python 3.6
-*PyTorch 1.1.0
-*NumPy (>1.12.1)
-*TensorBoard
-*torchtext
-*pycocotools
-*pytorch-lightning 1.2.8
-*transformers 4.5.1 
+ * Python 3.6
+ * PyTorch 1.1.0
+ * NumPy (>1.12.1)
+ * TensorBoard
+ * torchtext
+ * pycocotools
+ * pytorch-lightning 1.2.8
+ * transformers 4.5.1 
 
 ## Data
 Download the dataset created by [SCAN](https://github.com/kuanghuei/SCAN):

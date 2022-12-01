@@ -1,6 +1,5 @@
 # TCE-CVSE
 Code for the  MMM 2023 paper: Textual Concept Expansion with Commonsense Knowledge to Improve Dual-Stream Image-Text Matching.
-We borrow the code from ["CVSE"](https://github.com/BruceW91/CVSE) and ["Multi-label Text Classification with BERT and PyTorch Lightning"](https://curiousily.com/posts/multi-label-text-classification-with-bert-and-pytorch-lightning/)
 
 <img src="./figures/TCE-CVSE.jpg" width = "80%" height="60%">
 
@@ -62,6 +61,8 @@ Generate the Textual Concept Expansion by:
 We upload our model [here](https://drive.google.com/drive/folders/1Gq1VRDnTJnkxTwLs3dE16YHw4JObm6Nl?usp=sharing). You can download them and put them into the model directory.
 Test the model by:
 ```sbatch tce_run_with_slurm_das_test.sh```
+
+We borrow the code from ["CVSE"](https://github.com/BruceW91/CVSE) and ["Multi-label Text Classification with BERT and PyTorch Lightning"](https://curiousily.com/posts/multi-label-text-classification-with-bert-and-pytorch-lightning/)
 
 ## Citation
 

@@ -62,10 +62,10 @@ We upload our model [here](https://drive.google.com/drive/folders/1Gq1VRDnTJnkxT
 Test the model by:
 ```sbatch tce_run_with_slurm_das_test.sh```
 
-We borrow the code from ["CVSE"](https://github.com/BruceW91/CVSE) and ["Multi-label Text Classification with BERT and PyTorch Lightning"](https://curiousily.com/posts/multi-label-text-classification-with-bert-and-pytorch-lightning/)
 
 ## Citation
 
 
+We borrow the code from ["CVSE"](https://github.com/BruceW91/CVSE) and ["Multi-label Text Classification with BERT and PyTorch Lightning"](https://curiousily.com/posts/multi-label-text-classification-with-bert-and-pytorch-lightning/)
 
 

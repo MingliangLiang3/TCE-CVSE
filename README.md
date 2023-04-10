@@ -64,7 +64,16 @@ Test the model by:
 
 
 ## Citation
-
+<pre>
+@inproceedings{liang2023textual,
+  title={Textual Concept Expansion with Commonsense Knowledge to Improve Dual-Stream Image-Text Matching},
+  author={Liang, Mingliang and Liu, Zhuoran and Larson, Martha},
+  booktitle={MultiMedia Modeling: 29th International Conference, MMM 2023, Bergen, Norway, January 9--12, 2023, Proceedings, Part I},
+  pages={421--433},
+  year={2023},
+  organization={Springer}
+}
+}</pre>
 
 We borrow the code from ["CVSE"](https://github.com/BruceW91/CVSE) and ["Multi-label Text Classification with BERT and PyTorch Lightning"](https://curiousily.com/posts/multi-label-text-classification-with-bert-and-pytorch-lightning/)
 
